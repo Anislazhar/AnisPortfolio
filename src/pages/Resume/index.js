@@ -9,17 +9,28 @@ const Resume = () => {
     <div className="page" id="resume">
       <Title icon={"fa fa-briefcase"}>
         Resume - Total Commercial Experience{" "}
-        {moment().diff("09/04/2018", "years", true).toFixed(2)} years
+        {moment().diff("09/04/2017", "years", true).toFixed(2)} years
       </Title>
       <ResumeItem
-        date={"Nov 2019 - Present"}
+        date={"April 2021 - Present"}
+        title={"Software Developer"}
+        company={"https://www.codefrog.de/"}
+        logo={
+          "https://www.codefrog.de/wp-content/uploads/2020/03/CodeFrog_logo_Website-e1585139706101.png"
+        }
+      >
+        • Work on front-end with extensive use of React, TypeScript, Gatsby.jttps and GraphQL for
+        developing SPA. <br />• Responsible for design and development of the web pages from sketchs.
+      </ResumeItem>
+      <ResumeItem
+        date={"Nov 2019 - April 2021"}
         title={"Frontend Developer"}
         company={"https://www.joinmorpheus.com/"}
         logo={
-          "https://www.joinmorpheus.com/wp-content/uploads/2020/06/Morpheus-Logo-2020.05.24.png"
+          "https://joinmorpheus.com/images/logos/name_logo.png"
         }
       >
-        • Work on front-end with extensive use of React and JavaScript for
+        • Work on front-end with extensive use of React / Redux , Express , Node.js and MongoDB for
         developing SPA. <br />• Develop CSS with SCSS and BEM from sketchs.
       </ResumeItem>
       <ResumeItem

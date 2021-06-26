@@ -27,11 +27,14 @@ const Skills = () => {
         <li id="html">Html</li>
         <li id="scss">Css/Sass</li>
         <li id="javascript">JavaScript</li>
+        <li id="ttp">TypeScript</li>
         <li id="react">React</li>
         <li id="redux">Redux</li>
         <li id="node">Node</li>
         <li id="express">Express</li>
         <li id="mongo">MongoDb</li>
+        <li id="gatsby">Gatsby</li>
+        <li id="graphql">GraphQL</li>
       </ul>
     </div>
   );

@@ -6,8 +6,29 @@ import mongo from "../../assets/mongo.jpg";
 import scss from "../../assets/sass.jpg";
 import html from "../../assets/html.jpg";
 import express from "../../assets/express.png";
+import gatsby from "../../assets/gatsby.png";
+import graphql from "../../assets/graphql.png";
+import ttp from "../../assets/ttp.png";
 
 export const THEMES = {
+  gatsby: {
+    backgroundImage: gatsby,
+    linearGradient: createLinearGradient("#723F9A", "#222222"),
+    primaryColor: "#723F9A",
+    color: "#222222",
+  },
+  graphql: {
+    backgroundImage: graphql,
+    linearGradient: createLinearGradient("#B22884", "#222222"),
+    primaryColor: "#B22884",
+    color: "#222222",
+  },
+  ttp: {
+    backgroundImage: ttp,
+    linearGradient: createLinearGradient("#2E79C7", "#222222"),
+    primaryColor: "#2E79C7",
+    color: "#222222",
+  },
   react: {
     backgroundImage: react,
     linearGradient: createLinearGradient("#61dafb", "#222222"),
